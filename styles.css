@@ -1,0 +1,75 @@
+
+html {
+  /*background: url("rocks/brown-bg.jpg") no-repeat center center fixed;*/
+  /*background-color: #2a2a2a;*/
+  background-image: url("rocks/outer-space.png");
+  /*background-repeat: no-repeat;*/
+}
+
+#board {
+  width: 749px;
+  background-color: black;
+  margin: auto;
+  /*margin-top: 144px;*/
+}
+
+#title {
+
+  font: green 50px;
+}
+
+#pizzawars {
+  width: 60%;
+  margin-left: 239px;
+}
+
+.square {
+  float: left;
+}
+
+.pizza {
+  background-image: url("rocks/pizza.png");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  /*border: 1px solid green;*/
+}
+
+
+.nizar, .nizar2, .nizar3, .nizar4 {
+  background-image: url("rocks/nizar.png");
+  width: 40px;
+  height: 40px;
+}
+
+.nomad {
+  background-image: url("rocks/nizar.png");
+  width: 40px;
+  height: 40px;
+}
+
+#pic {
+  margin-left: 367px;
+}
+
+#winPic {
+  margin-left: 257px;
+}
+
+
+.wall {
+  background-image: url("rocks/brick-block.png");
+  width: 40px;
+  height: 40px;
+}
+
+.eSign1, .eSign2, .eSign3, .eSign4 {
+  background-image: url("rocks/exit.jpg");
+  width: 40px;
+  height: 40px;
+}
+
+.path {
+  width: 40px;
+  height: 40px;
+}
